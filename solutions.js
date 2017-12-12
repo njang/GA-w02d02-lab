@@ -114,16 +114,14 @@ createFunction();
 // ```
 
 // Log the message attribute
-
-// ```javascript
-// const account = {
-//     tweet(){
-//         return {
-//             message: "fun"
-//         }
-//     }
-// }
-// ```
+const account = {
+    tweet(){
+        return {
+            message: "fun"
+        }
+    }
+}
+console.log(account.tweet().message);
 
 // Log the second element in the array
 
