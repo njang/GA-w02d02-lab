@@ -124,12 +124,11 @@ const account = {
 console.log(account.tweet().message);
 
 // Log the second element in the array
-
-// ```javascript
-// const me = {
-//     foo(){
-//         return {
-//             array: [2.5, 7, true]
-//         }
-//     }
-// }
+const me = {
+    foo(){
+        return {
+            array: [2.5, 7, true]
+        }
+    }
+}
+console.log(me.foo().array[1]);
